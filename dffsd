@@ -1,0 +1,482 @@
+[33mcommit 7837d959ac8754594f7a79fcbc15eaff228d86c5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: PierreCastaing <pierre.castaingg@gmail.com>
+Date:   Mon Aug 24 23:10:38 2020 +0200
+
+    first commit - academic theme install
+
+[33mcommit fe1ece17bd7ec7e1bb7b214ce7ae784b042e1aee[m
+Author: Manuel Rüger <manuel@rueg.eu>
+Date:   Mon Aug 24 16:50:57 2020 +0200
+
+    docs: update comments on media dir to new location (#114)
+
+[33mcommit ba653c8d9adab4fdaeb7ebc25a650660d2700641[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Aug 24 13:30:48 2020 +0100
+
+    theme: update v5-dev
+
+[33mcommit 0fb6a19198833fb42355e2aec3a19335e96c23ad[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Jul 29 20:28:34 2020 +0100
+
+    theme: update to latest v5 dev - get fix
+
+[33mcommit 163f002fdd1ff962c752ab8f817e1d6e6d16e3cc[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Jul 29 20:27:45 2020 +0100
+
+    doc: update image comments from img/ to media/
+
+[33mcommit a17fba1b0013c928536b58d591874e911406a6d8[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Jul 29 19:08:07 2020 +0100
+
+    theme: update v5 dev
+
+[33mcommit fc482b49ae6d850db625e4cce19aeef9fcb0d99a[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Jun 18 23:17:16 2020 +0100
+
+    fix: Hugo live reload error when editing homepage widgets
+    
+    Add Hugo server's `--disableFastRender` option.
+    
+    Helps prevent "ERROR: Homepage not found at /home/index.md!" due to Hugo not fully re-rendering the homepage.
+
+[33mcommit bd6df74fb25a73b207dd7a226d79e7f31c9d6b82[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jun 15 00:32:31 2020 +0100
+
+    feat(cms): add support for projects and make subtitle/summary optional
+
+[33mcommit 691e3c16eb22d2d6bfc00156528038cf8683856b[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jun 8 20:18:43 2020 +0100
+
+    docs: update Demo URL
+
+[33mcommit 01b172314727bb894a52a78dd70703f4c5bd151c[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jun 8 20:12:45 2020 +0100
+
+    feat: add default icon
+    
+    Redundant as it's inherited, but including a default here may be more intuitive for site admin looking to change the icon.
+
+[33mcommit 5bc5d4e481d013d4fdb629e07c1858f0b521b566[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jun 8 20:09:12 2020 +0100
+
+    theme: upgrade to latest master
+
+[33mcommit 8a52fc09c56af0851d4662fa966e85b994d6ffc5[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jun 8 20:04:31 2020 +0100
+
+    fix: discontinue built-in Forestry support
+    
+    Netlify CMS is supported instead.
+
+[33mcommit 80895bae1b44c7897c3a776732f3cf02e510c749[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed May 27 01:28:11 2020 +0100
+
+    theme: upgrade to latest master
+
+[33mcommit 018be3bb4030ac9262521398714c379476007f75[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri May 15 00:04:13 2020 +0100
+
+    theme: upgrade to latest v4.9-dev
+
+[33mcommit 0fc9562d6957416e0be6e1619052c78a3b70f8a6[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri May 1 00:08:07 2020 +0100
+
+    theme: upgrade to latest v4.9-dev
+
+[33mcommit c70b6347e43fab4a46334334896055e69af3cdff[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Apr 24 23:37:46 2020 +0100
+
+    theme: upgrade to latest v4.9-dev - get unicode taxonomy support
+
+[33mcommit 25d6a319f39680cf7550a8db7486e46928ca7332[m
+Author: George <gcushen@users.noreply.github.com>
+Date:   Mon Apr 20 20:12:42 2020 +0100
+
+    Create FUNDING.yml
+
+[33mcommit 47c949aa3c0a687a3c7a70f0d697d147c6196654[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Apr 16 23:48:38 2020 +0100
+
+    theme: upgrade to latest v4.9-dev - get singular taxonomy URLs
+
+[33mcommit 0a539c1b8993ba3254bf7b9789bb59fa405a513e[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Apr 8 22:36:00 2020 +0100
+
+    feat: use latest Hugo v68.3 in Netlify build
+
+[33mcommit 2ca272d722d0914efa5cb31472b66e2d30b04e51[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Apr 8 22:33:53 2020 +0100
+
+    theme: upgrade to latest master - integrates Netlify Identity for Netlify CMS
+    
+    Also, adds Netlify CMS support for talks.
+
+[33mcommit 142f1ef1b16b1add5e89512bb4b24234b27d594e[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Mar 29 11:21:08 2020 +0100
+
+    theme: upgrade to latest v4.9-dev - fix parse error
+
+[33mcommit 25d4a100abe5b9ad1a706f972866a244e12a8641[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Mar 28 20:50:40 2020 +0000
+
+    theme: upgrade to latest v4.9-dev
+
+[33mcommit a8930b1d99da84e0deef2cd3981725cf58eaaa75[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Mar 15 21:43:50 2020 +0000
+
+    theme: upgrade to master
+
+[33mcommit 440f422646b7054c34a9c2ec6d7365eed1289681[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Mar 13 18:46:15 2020 +0000
+
+    fix: choosing featured image in Netlify CMS
+    
+    Fixes conflict between `featured` param describing if a post is featured and featured `image` param - was a typo with it also being named `featured` instead of the unique name of `image`.
+    
+    Fix https://github.com/gcushen/hugo-academic/issues/1593
+
+[33mcommit 3bac8f0494bf35e64fb5943a99ccc377e7cac390[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Mar 6 21:20:22 2020 +0000
+
+    theme: upgrade to v4.8.0
+
+[33mcommit 7cf1dfea616345c866c040dfe3c06d34a48ab2c7[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Mar 5 20:55:33 2020 +0000
+
+    theme: upgrade to latest v4.8.0-dev
+
+[33mcommit d68601fec7b6bbbf603be4d0af2037f30be51229[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Feb 9 00:56:46 2020 +0000
+
+    theme: upgrade to latest v4.8-dev
+
+[33mcommit ecc423e9de2114387978017eb8f42f2fe0f44036[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Feb 8 20:03:06 2020 +0000
+
+    feat: add support for editing pages in Netlify CMS
+    
+    Adds support for writing blog posts and editing privacy policy and terms pages.
+    
+    To use,
+    - You must already be using Netlify to deploy your site
+    - Login to Netlify and setup your editors under the Identity section
+    - Head over to YOUR_URL/admin/
+    
+    See https://github.com/gcushen/hugo-academic/issues/1191
+
+[33mcommit 8c93100c1326887f52c996200dd7849a3c3b731c[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Jan 26 20:33:13 2020 +0000
+
+    theme: upgrade to latest v4.8-dev - get support for Hugo 0.63
+
+[33mcommit 75fb95f3f96380a7a368ac66ebfae26df6960900[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Jan 26 17:06:46 2020 +0000
+
+    theme: upgrade to latest v4.8-dev
+
+[33mcommit 500ffc141c6c14939d7e6c7187a37fda57fd9fe9[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Jan 24 02:11:14 2020 +0000
+
+    theme: upgrade to latest v4.8-dev
+
+[33mcommit 0c39dbba330c9abc2a0ad0d4c631d9a22af4d338[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Jan 24 00:00:45 2020 +0000
+
+    theme: upgrade to latest v4.8-dev - get fixes & avatar shape config
+
+[33mcommit cc2fb6b68649a247bdfd2f59ddb898c8236fa0da[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Jan 4 18:01:32 2020 +0000
+
+    theme: upgrade to latest master
+
+[33mcommit 5b74eef230e52d47927057554a04fdf99732f35c[m
+Author: Néstor Nápoles <napulen@gmail.com>
+Date:   Thu Jan 2 19:39:16 2020 -0500
+
+    chore: add resources dir to gitignore (#59)
+
+[33mcommit 04ab12f042e8b415122f9e464413225dfb08a739[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Jan 2 17:07:26 2020 +0000
+
+    theme: upgrade to v4.7.0
+
+[33mcommit e533fa5f26ed62d51896a3cfeec41eef80c10a65[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Tue Dec 24 18:52:19 2019 +0000
+
+    theme: upgrade to latest v4.7-dev
+
+[33mcommit 04cba7511628a7de9ef8389da24d87070256c981[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Dec 7 20:07:41 2019 +0000
+
+    theme: upgrade to latest - support Hugo v0.60
+
+[33mcommit 02e73f183eb3a956c1abbbb87cb6f5f0c5ec8a1d[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Dec 7 16:48:54 2019 +0000
+
+    theme: upgrade to latest
+
+[33mcommit bbfcc5ecccaadcb9121758085618cec0e71475db[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Nov 24 14:42:22 2019 +0000
+
+    theme: upgrade to latest v4.6.2
+
+[33mcommit 019e6d01d22702f2babf887dd62a266a7a598ff0[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Tue Nov 19 00:24:14 2019 +0000
+
+    theme: upgrade to v4.6.1
+
+[33mcommit 2cfc1551f046ebb353ead1c2d9a82599465d5c44[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Nov 18 00:57:14 2019 +0000
+
+    theme: upgrade to v4.7-dev - get dropdown fix
+
+[33mcommit bc9833cf9794dbdf6af2a04ac4619a75c88f6db2[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Nov 16 18:10:09 2019 +0000
+
+    theme: upgrade to v4.6.0 public release
+
+[33mcommit 711d7ea531d04e213961efc841f056f002b5887a[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Oct 30 13:22:20 2019 +0000
+
+    theme: upgrade to latest v4.6-dev
+
+[33mcommit c574220f1dd6bf54d05795fff4ba441a0a2fab7c[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Oct 20 19:23:48 2019 +0100
+
+    theme: upgrade to latest v4.6-dev
+
+[33mcommit eec6f47a83e9dfcb9461f180762015abcc9b2c62[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Tue Oct 15 13:01:06 2019 +0100
+
+    refactor: convert config symlink to empty file for Forestry
+    
+    Otherwise, Windows 10 users must either enable Developer mode or run
+    git clone with admin privileges as well as using the special
+    `git clone -c core.symlinks=true https://...` command.
+
+[33mcommit de3aa13f6fa35bbf9c8b3c27be48e1ce8afa5b1f[m
+Author: Cyrille <cyrille.froehlich@gmail.com>
+Date:   Fri Oct 11 05:09:01 2019 +0900
+
+    fix: make update script compatible with both MacOS and Linux
+    
+    Fix sed inplace option to run with both GNU sed and MacOS sed.
+    
+    Previous use of sed may have only worked on MacOS.
+    
+    See #52
+
+[33mcommit 4c014375e1a99c146e443c5ac24c6d21490e57ee[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Oct 9 18:47:32 2019 +0100
+
+    feat: add Forestry.io integration
+
+[33mcommit 1a195d83b703339908861064f23b223099907851[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Oct 2 12:22:07 2019 +0100
+
+    theme: upgrade to latest v4.6-dev - get fixes
+    
+    Fix #58
+
+[33mcommit f28764a74200d9d4038a9f8f4733f60c4b451528[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Sep 25 11:15:42 2019 +0100
+
+    theme: upgrade to latest v4.6-dev - fix spacing with `link_authors`
+
+[33mcommit f20309631ef87bad9e0483b1bcf1e892939de432[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Tue Sep 24 22:28:41 2019 +0100
+
+    theme: upgrade to latest v4.6-dev - get GTM and link_authors
+
+[33mcommit 09d1d399447d087347c743c955b75af9748ec1eb[m
+Author: Julian Pawlowski <jpawlowski@users.noreply.github.com>
+Date:   Sun Sep 15 00:12:22 2019 +0200
+
+    fix(netlify): add headers for Web App Manifest and RSS feed (#40)
+
+[33mcommit ef10dff4d24a113727e07e2b372afd5069569813[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Sep 12 13:00:35 2019 +0100
+
+    theme: upgrade to v4.5.0
+
+[33mcommit 58c0d2e6cb98bd12ed379a1e214339aab2ad4474[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Sep 11 13:28:36 2019 +0100
+
+    theme: upgrade to latest v4.5-dev - get new params structure
+
+[33mcommit 8a5e40d952cf0781f7609648612a30410a9d47ea[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Sep 9 21:18:39 2019 +0100
+
+    theme: upgrade to latest v4.5-dev - get revised font system + JSONLD
+
+[33mcommit 36797b58cbdfcdb0fedae7b781f9e83febb40af3[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Sep 9 21:14:47 2019 +0100
+
+    feat: create folders for user-created themes and fonts
+
+[33mcommit ab80d206ac15cc8de8ecd53ddac554d97cea280a[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Sep 4 18:08:21 2019 +0100
+
+    theme: upgrade to latest v4.5-dev - fix new theme/font system
+
+[33mcommit d88a2545e5d75b0bede9e24397b88476793e4bbb[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Sep 2 16:25:11 2019 +0300
+
+    theme: upgrade to latest v4.5-dev - get new theme/font system
+
+[33mcommit 94873a0f53b54e0b058a5a50f5fc7565e86094cc[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Aug 30 14:40:32 2019 +0300
+
+    theme: upgrade to latest v4.5-dev - get new theme/font system
+
+[33mcommit bdea9adca0bc5b49512e52b333502371017b0642[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Fri Aug 30 14:31:46 2019 +0300
+
+    theme: upgrade to latest v4.5-dev - get new theme/font system
+
+[33mcommit 98a99bf4cc3a0ea6035ef6306bff863d7c49b060[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed Jul 31 20:31:18 2019 +0100
+
+    theme: upgrade to latest v4.5-dev
+
+[33mcommit 34d8ccabea0a94162cd33dc85e997dfe4d63d51f[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Jul 27 23:07:08 2019 +0100
+
+    theme: upgrade to latest v4.5-dev
+
+[33mcommit 5b2d67bdb4eafd5ddbc67ab72c6af54230baa63e[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jul 22 21:33:38 2019 +0100
+
+    theme: upgrade to v4.5-dev
+
+[33mcommit 30049c6dcf4cb51dca31cac6abdcd48e4aa260c4[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Jul 18 00:59:32 2019 +0100
+
+    theme: sync v4.4.0-dev - get fixes
+
+[33mcommit 0960cefcc54b03c45fb716ca33d4b55c052272e0[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sat Jul 13 01:47:44 2019 +0100
+
+    theme: sync v4.4.0-dev - get fixes
+
+[33mcommit 5eb6da7ce311e7ebcc7700bf6cf5a1d762f4b1b3[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Thu Jul 11 20:59:15 2019 +0100
+
+    theme: sync v4.4.0-dev - get fixes + add Edit Page option
+
+[33mcommit 2b5444547a83f385739a175f2bebebbb0f00710c[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jul 8 12:49:05 2019 +0100
+
+    theme: sync v4.4.0-dev - get fixes
+
+[33mcommit 11b80ce2bed25bf6b98193cddab6236c70d71378[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon Jul 1 23:22:37 2019 +0100
+
+    theme: sync v4.4.0-dev - get fixes + new themes (rose, mr_robot)
+
+[33mcommit ac25c1dace7931e81b63d4722fad370533c3551b[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Tue Jun 18 13:58:34 2019 +0100
+
+    fix: workaround Hugo bug with non-ASCII characters
+    
+    See https://github.com/gohugoio/hugo/issues/5687
+
+[33mcommit cb97d87dcf5827489dce0d771a0c3193ae444cc5[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Jun 16 19:34:32 2019 +0100
+
+    theme: sync v4.4.0-dev - get Page Sharer config + fixes
+
+[33mcommit 6aea79e3310cd0c42a2ba39a26970d6996fad1ea[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Jun 16 19:33:24 2019 +0100
+
+    fix(demo): update selector for getting latest GitHub release
+    
+    Reflect changes in Academic's JS in v4.4
+
+[33mcommit 13b93d5f66aa4412b20fc02c1709e363af23133d[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun Jun 2 19:05:53 2019 +0100
+
+    theme: sync v4.4.0-dev
+
+[33mcommit 88d6924d34d00742a0e9fc7db6cfbaca1b877151[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Wed May 29 21:08:35 2019 +0100
+
+    packaging: automatically set BaseURL for Netlify deployments
+
+[33mcommit 103463d1d5b75be506897c364d5c18fad51928d7[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Mon May 27 18:48:28 2019 +0100
+
+    theme: sync v4.4.0-dev
+
+[33mcommit 30f4f1c350c5343b2e80b86d2cacb07e0889e1b5[m
+Author: George Cushen <gcushen@users.noreply.github.com>
+Date:   Sun May 26 23:36:37 2019 +0100
+
+    theme: sync v4.4.0-dev
