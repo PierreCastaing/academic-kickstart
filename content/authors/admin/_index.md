@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Pierre Castaing
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Freelance developer
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: on Malt
+  url: "https://www.malt.fr/profile/pierrecastaing"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a freelance developer focusing on web development with a fullstack inclination.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Web dev
+- Data science
+- Photography and image processing
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Msc in Management Science and Engineering
+    institution: Columbia University
+    year: 2013
+  - course: MEng in operations reseach (diplôme d'ingénieur)
+    institution: Ecole Centrale Paris
+    year: 2014
+  - course: BSc in engineering
+    institution: Ecole Centrale Paris
+    year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,15 +45,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.linkedin.com/in/pierrecastaing
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/pierrecastaing
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,11 +62,13 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a freelance developer based in Paris. I currently work with the Malt platform.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I graduated from Ecole Centrale Paris and Columbia University a few years ago. For the last couple of years, I worked as a Data Scientist at Shift Technology, a french company providing a fraud detection tool powered by Machine Learning and displayed as a web interface for the end-clients. I was highly involve on the backend part of this tool. You can also check my other projects below.
+
+I love to code and develop projects - for work or for myslef. I prefer projects that produce a nice outcome within a few weeks or months, rather than endlessly complex tentative that drag on for years. And I like job well done.
